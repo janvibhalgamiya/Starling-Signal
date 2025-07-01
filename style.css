@@ -1,0 +1,341 @@
+/* Reset default styles */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  /* background: linear-gradient(135deg, #0a1428 0%, #1a2744 100%); */
+  background: #000000;
+  color: white;
+  min-height: 100vh;
+}
+
+/* Header Navigation */
+header {
+  padding: 1px 4px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav::after {
+  z-index: 1;
+  border-radius: 100%;
+  background: linear-gradient(to bottom, #0e7bf8, #0e7bf800);
+  /* background-color: #2563eb; */
+  /* color: #2563eb; */
+  /* opacity: 0.2; */
+}
+
+.logo {
+  padding: 60px 10px 70px 30px;
+  display: flex;
+  line-height: 140%;
+  align-items: center;
+  font-size: 20px;
+  gap: 10px;
+  font-weight: 800;
+  font-size: 28px;
+  font-family: "Inter", sans-serif;
+}
+.logo-icon img {
+  margin-top: 8px;
+}
+
+/* .logo-icon {
+    background: #2563eb;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    font-weight: bold;
+} */
+
+.nav-menu {
+  /* justify-content: space-between; */
+  justify-content: space-around;
+  align-items: center;
+  width: 982px;
+  height: 64px;
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  font-weight: 500;
+  font-size: 21px;
+  border: 1px solid #ffffff26;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 16px 21.4px 17px 22px;
+  border-radius: 50px;
+}
+
+.nav-menu li {
+  color: #cbd5e1;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  font-family: "Inter", sans-serif;
+}
+
+.nav-menu li:hover {
+  color: white;
+}
+
+.sign-in-btn {
+  width: 162px;
+  height: 65px;
+  /* background: rgba(75, 75, 244, -0.1); */
+  /* background: linear-gradient(135deg, #1a365d 0%, #2c5282 50%, #3182ce 100%); */
+  background: linear-gradient(
+    135deg,
+    rgba(26, 54, 93, 0.4) 0%,
+    rgba(44, 82, 130, 0.4) 50%,
+    rgba(49, 130, 206, 0.4) 100%
+  );
+  color: white;
+  padding: 12px 30px;
+  border: 1px solid rgb(75, 75, 244);
+  border-radius: 64px;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  transition: background 0.3s ease;
+}
+
+/* .sign-in-btn:hover {
+  background: #1d4ed8;
+} */
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 90px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  width: 1269px;
+  height: 168;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  line-height: 140%;
+}
+
+.hero .subtitle {
+  width: 343px;
+  height: 24px;
+  color: #a6aab2;
+  font-size: 18px;
+  margin-bottom: 60px;
+  font-weight: 500;
+  margin-left: 450px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+/* Buttons */
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-left: 70px;
+  flex-wrap: wrap;
+}
+
+.btn-primary {
+  width: 172px;
+  height: 56px;
+  background: #0a7cff;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 48px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  line-height: 24px;
+}
+
+.btn-primary:hover {
+  background: #1d4ed8;
+}
+
+.btn-secondary {
+  background: #ffffff0a;
+  width: 159px;
+  height: 56px;
+  color: white;
+  padding: 15px 30px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 48px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  line-height: 24px;
+}
+
+.btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Frame section */
+
+.fame{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frame {
+  margin-top: 40px;
+  /* margin-left: 830px; */
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 58px;
+  background: #0f0f0f;
+  border: 3px solid #333333;
+  border-radius: 20px;
+  width: 896px;
+  height: 140px;
+}
+.frame .img {
+  width: 206px;
+  height: 35px;
+}
+.frame .Bin {
+  width: 170px;
+  height: 48px;
+}
+.frame .For {
+  width: 135px;
+  height: 30px;
+}
+
+/* Main container for the join section */
+.join-section {
+  /* background: linear-gradient(135deg, #0a0a23 0%, #1a1a3e 100%); */
+  /* width: 1256px; */
+  /* min-height: 80vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px 0px 20px;
+  font-family: "Inter", sans-serif;
+}
+
+/* Main heading style */
+.main-title {
+  /* width: 1256px;  */
+  height: 30px;
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 60px;
+  line-height: 140%;
+  /* max-width: 1000px; */
+}
+
+/* Container for the three cards */
+.stats-container {
+  display: flex;
+  gap: 80px;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 70px;
+  /* max-width: 1200px; */
+}
+
+/* Individual stat card styling */
+.stat-card {
+  width: 484px;
+  height: 375px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 3px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50px;
+  padding: 40px 30px;
+  text-align: center;
+  /* min-width: 320px;
+  max-width: 350px; */
+  backdrop-filter: blur(10px);
+}
+
+/* Icon styling inside cards */
+.stat-icon {
+  width: 60px;
+  height: 60px;
+  /* background: rgba(255, 255, 255, 0.2); */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 30px auto;
+  font-size: 24px;
+  padding: 60px;
+}
+
+/* Main number/title in each card */
+.stat-number {
+  color: white;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-family: "Inter", sans-serif;
+  /* width: 325px;
+  height: 49px;
+  text-align: center; */
+}
+
+/* Description text in each card */
+.stat-description {
+  color: #A6AAB2;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  width: 397px;
+}
+
+/* Get started button styling */
+.get-started-btn {
+  background: linear-gradient(45deg, #007bff, #0056b3);
+  width: 185px;
+  height: 56px;
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Button hover effect */
+.get-started-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 123, 255, 0.3);
+}
+
