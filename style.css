@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 
-body {
+body {  
   font-family: "Inter", sans-serif;
   /* background: linear-gradient(135deg, #0a1428 0%, #1a2744 100%); */
   background: #000000;
@@ -196,7 +196,7 @@ nav::after {
 
 /* Frame section */
 
-.fame{
+.fame {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -309,7 +309,7 @@ nav::after {
 
 /* Description text in each card */
 .stat-description {
-  color: #A6AAB2;
+  color: #a6aab2;
   font-size: 18px;
   line-height: 24px;
   font-weight: 500;
@@ -338,4 +338,353 @@ nav::after {
   transform: translateY(-2px);
   box-shadow: 0 8px 25px rgba(0, 123, 255, 0.3);
 }
+
+/* Main container */
+.container {
+  max-width: 1256px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  margin-top: 150px;
+  font-size: 50px;
+}
+
+/* Main heading */
+.mainn-title {
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+/* Description text */
+.description {
+  width: 1041px;
+  height: 72px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #a6aab2;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Content wrapper */
+.content-wrapper {
+  display: flex;
+  gap: 50px;
+  align-items: flex-start;
+}
+
+/* Features box */
+.features-box {
+  background-color:#0F0F0F;
+  width: 811px;
+  /* height: 614px; */
+  border: 3px solid #333333;
+  border-radius: 50px;
+  padding: 90px 90px 90px 90px;
+  flex: 1;
+}
+
+/* Feature item */
+.feature-item {
+  /* width: 811px;
+  height: 64px;
+  border-rads: 50px; */
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.feature-item:last-child {
+  margin-bottom: 0;
+}
+
+/* Checkmark icon */
+.checkmark {
+  width: 27px;
+  height: 27px;
+  background-color: #242424;
+  box-shadow: 0 0 15px #a6cbf2;
+  /* 0 0 10px #a6cbf2,
+  0 0 10px #a6cbf2; */
+  border-radius: 50%;
+  margin-right: 20px;
+  flex-shrink: 0;
+  position: relative;
+  margin-top: 2px;
+}
+
+.checkmark::after {
+  content: "✓";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -55%);
+  color: #4a9ef8;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* Vertical line connector */
+.feature-item:not(:last-child)::before {
+  content: "";
+  position: absolute;
+  left: 11px;
+  top: 35px;
+  width: 2px;
+  height: 40px;
+  background-color: #4a9ef8;
+}
+
+/* Feature text */
+.feature-text {
+  color: #a6aab2;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+/* Right side content */
+.right-content {
+  width: 780px;
+  height: 105px;
+  flex: 1;
+  padding-top: 50px;
+}
+
+.right-content p {
+  /* width: 780px; */
+  color: #A6AAB2;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  line-height: 28px;
+  text-align: justify;
+}
+
+/* Button */
+.cta-button {
+  background-color: #4a9ef8;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #3a8ef0;
+}
+
+/* Crypto section css */
+
+.crypto{
+  display: flex;
+  width: 1200px;
+  margin: 90px;
+}
+
+.parts{
+  /* width: 664px; */
+  height: 621px;
+  padding: 90px;
+}
+.Trade{
+  /* width: 882px; */
+  /* height: 57px; */
+  padding-top: 285px;
+}
+.Trade h1{
+  width: 882px;
+  height: 57px;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 150%;
+}
+.Trade p{
+  width: 882px;
+  height: 81px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #A6AAB2;
+}
+.Trade button{
+  background: linear-gradient(45deg, #007bff, #0056b3);
+  width: 155px;
+  height: 56px;
+  color: white;
+  border: none;
+  padding: 16px 28px 16px 24px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  border-radius: 48px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.Trade button:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 123, 255, 0.3);
+}
+
+.cryptoo{
+  display: flex;
+  width: 1200px;
+  margin: 90px;
+  margin-bottom: 250px;
+}
+
+.partss{
+  /* width: 664px; */
+  height: 621px;
+  padding: 90px;
+}
+.Tradee{
+  /* width: 882px; */
+  /* height: 57px; */
+  padding-top: 285px;
+  margin-left: 100px;
+}
+.Tradee h1{
+  width: 880px;
+  height: 57px;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 150%;
+}
+.Tradee p{
+  width: 880px;
+  height: 81px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #A6AAB2;
+}
+.Tradee button{
+  background: linear-gradient(45deg, #007bff, #0056b3);
+  width: 155px;
+  height: 56px;
+  color: white;
+  border: none;
+  padding: 16px 28px 16px 24px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  border-radius: 48px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.Tradee button:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 123, 255, 0.3);
+}
+
+/* Footer Styles */
+.footer {
+  color: white;
+  padding: 40px 20px;
+  margin-top: auto;
+}
+
+/* Container to center content */
+.footer-container {
+  max-width: 1200px;
+  /* margin: 0 auto; */
+  margin: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+/* Each column in footer */
+.footer-column {
+  flex: 1;
+  min-width: 250px;
+}
+
+/* Column headings */
+.footer-column h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+/* Links in footer */
+.footer-column a {
+  color: #cccccc;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+  
+}
+
+.footer-column a:hover {
+  color: white;
+}
+
+/* Paragraph text */
+.footer-column p {
+  width: 506px;
+  height: 170px;
+  color: #cccccc;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+  margin-bottom: 15px;
+  
+}
+
+/* Social media icons */
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  width: 35px;
+  height: 35px;
+  /* background-color: #333; */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+}
+
+.social-icons a:hover {
+  background-color: #555;
+}
+
+/* Contact info styling */
+.contact-item {
+  margin-bottom: 15px;
+}
+
+.contact-label {
+  color: #888;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.contact-value {
+  color: white;
+  font-size: 14px;
+}
+
 
