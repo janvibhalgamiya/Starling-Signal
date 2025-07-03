@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 
-body {  
+body {
   font-family: "Inter", sans-serif;
   /* background: linear-gradient(135deg, #0a1428 0%, #1a2744 100%); */
   background: #000000;
@@ -380,7 +380,7 @@ nav::after {
 
 /* Features box */
 .features-box {
-  background-color:#0F0F0F;
+  background-color: #0f0f0f;
   width: 811px;
   /* height: 614px; */
   border: 3px solid #333333;
@@ -460,7 +460,7 @@ nav::after {
 
 .right-content p {
   /* width: 780px; */
-  color: #A6AAB2;
+  color: #a6aab2;
   font-size: 20px;
   font-weight: 400;
   margin-bottom: 20px;
@@ -488,38 +488,38 @@ nav::after {
 
 /* Crypto section css */
 
-.crypto{
+.crypto {
   display: flex;
   width: 1200px;
   margin: 90px;
 }
 
-.parts{
+.parts {
   /* width: 664px; */
   height: 621px;
   padding: 90px;
 }
-.Trade{
+.Trade {
   /* width: 882px; */
   /* height: 57px; */
   padding-top: 285px;
 }
-.Trade h1{
+.Trade h1 {
   width: 882px;
   height: 57px;
   font-size: 38px;
   font-weight: 600;
   line-height: 150%;
 }
-.Trade p{
+.Trade p {
   width: 882px;
   height: 81px;
   font-size: 18px;
   font-weight: 400;
   line-height: 150%;
-  color: #A6AAB2;
+  color: #a6aab2;
 }
-.Trade button{
+.Trade button {
   background: linear-gradient(45deg, #007bff, #0056b3);
   width: 155px;
   height: 56px;
@@ -534,45 +534,45 @@ nav::after {
   transition: all 0.3s ease;
 }
 
-.Trade button:hover{
+.Trade button:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 25px rgba(0, 123, 255, 0.3);
 }
 
-.cryptoo{
+.cryptoo {
   display: flex;
   width: 1200px;
   margin: 90px;
   margin-bottom: 250px;
 }
 
-.partss{
+.partss {
   /* width: 664px; */
   height: 621px;
   padding: 90px;
 }
-.Tradee{
+.Tradee {
   /* width: 882px; */
   /* height: 57px; */
   padding-top: 285px;
   margin-left: 100px;
 }
-.Tradee h1{
+.Tradee h1 {
   width: 880px;
   height: 57px;
   font-size: 38px;
   font-weight: 600;
   line-height: 150%;
 }
-.Tradee p{
+.Tradee p {
   width: 880px;
   height: 81px;
   font-size: 18px;
   font-weight: 400;
   line-height: 150%;
-  color: #A6AAB2;
+  color: #a6aab2;
 }
-.Tradee button{
+.Tradee button {
   background: linear-gradient(45deg, #007bff, #0056b3);
   width: 155px;
   height: 56px;
@@ -587,7 +587,7 @@ nav::after {
   transition: all 0.3s ease;
 }
 
-.Tradee button:hover{
+.Tradee button:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 25px rgba(0, 123, 255, 0.3);
 }
@@ -617,19 +617,25 @@ nav::after {
 
 /* Column headings */
 .footer-column h3 {
-  font-size: 18px;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 100%;
   margin-bottom: 20px;
   color: white;
+  margin-left: 400px;
 }
 
 /* Links in footer */
 .footer-column a {
+  width: 200px;
   color: #cccccc;
   text-decoration: none;
   display: block;
   margin-bottom: 10px;
-  font-size: 14px;
-  
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 400px;
+  line-height: 150%;
 }
 
 .footer-column a:hover {
@@ -645,7 +651,6 @@ nav::after {
   font-weight: 400;
   line-height: 150%;
   margin-bottom: 15px;
-  
 }
 
 /* Social media icons */
@@ -665,6 +670,8 @@ nav::after {
   justify-content: center;
   color: white;
   font-size: 20px;
+  margin-left: 400px;
+
 }
 
 .social-icons a:hover {
@@ -677,14 +684,20 @@ nav::after {
 }
 
 .contact-label {
-  color: #888;
-  font-size: 12px;
+  color: #D2D2D2;
+  width: 227px;
+  font-size: 16px;
+  font-weight: 300;
   margin-bottom: 5px;
+  margin-left: 400px;
+  line-height: 150%;
 }
 
 .contact-value {
+  width: 206px;
   color: white;
-  font-size: 14px;
+  font-size: 20px;
+  margin-left: 400px;
+  font-weight: 500;
+  line-height: 150%;
 }
-
-
