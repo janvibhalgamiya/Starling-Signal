@@ -658,24 +658,7 @@ nav::after {
   display: flex;
   gap: 15px;
   margin-top: 20px;
-}
-
-.social-icons a {
-  width: 35px;
-  height: 35px;
-  /* background-color: #333; */
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-size: 20px;
-  margin-left: 400px;
-
-}
-
-.social-icons a:hover {
-  background-color: #555;
+  width: 20px;
 }
 
 /* Contact info styling */
@@ -684,7 +667,7 @@ nav::after {
 }
 
 .contact-label {
-  color: #D2D2D2;
+  color: #d2d2d2;
   width: 227px;
   font-size: 16px;
   font-weight: 300;
